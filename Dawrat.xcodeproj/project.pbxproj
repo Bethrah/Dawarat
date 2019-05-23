@@ -7,35 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420C9FC8220CD1030044CAC0 /* DiscoverTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C9FC7220CD1030044CAC0 /* DiscoverTable.swift */; };
+		420C9FCA220CD6520044CAC0 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C9FC9220CD6520044CAC0 /* Row.swift */; };
+		420C9FCC220DB3C70044CAC0 /* MostStyleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C9FCB220DB3C70044CAC0 /* MostStyleRow.swift */; };
+		420C9FCE220DB46C0044CAC0 /* SmallImegStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C9FCD220DB46C0044CAC0 /* SmallImegStyle.swift */; };
+		420C9FD0220DB4A00044CAC0 /* TableInCellStyleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420C9FCF220DB4A00044CAC0 /* TableInCellStyleRow.swift */; };
+		420C9FD2220DF6390044CAC0 /* MostStyleRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420C9FD1220DF6390044CAC0 /* MostStyleRow.xib */; };
+		420C9FD722122BB00044CAC0 /* LargeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420C9FD622122BB00044CAC0 /* LargeCollectionCell.xib */; };
 		42168CFB21E3E27400498757 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42168CFA21E3E27400498757 /* AppDelegate.swift */; };
 		42168CFD21E3E27400498757 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42168CFC21E3E27400498757 /* ViewController.swift */; };
 		42168D0021E3E27400498757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42168CFE21E3E27400498757 /* Main.storyboard */; };
-		42168D0221E3E27600498757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42168D0121E3E27600498757 /* Assets.xcassets */; };
 		42168D0521E3E27600498757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42168D0321E3E27600498757 /* LaunchScreen.storyboard */; };
 		42168D0D21EE0B0100498757 /* newCol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42168D0C21EE0B0100498757 /* newCol.swift */; };
 		42168D0F21EE0EF100498757 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42168D0E21EE0EF100498757 /* CategoryRow.swift */; };
-		42168D1121EE3EBB00498757 /* collectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42168D1021EE3EBB00498757 /* collectionCell.swift */; };
+		42168D1121EE3EBB00498757 /* LargeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42168D1021EE3EBB00498757 /* LargeCollectionCell.swift */; };
 		42168D1321EE81A900498757 /* LearnEnglishRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42168D1221EE81A900498757 /* LearnEnglishRow.swift */; };
 		42168D1521EE901D00498757 /* freecoursesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42168D1421EE901D00498757 /* freecoursesRow.swift */; };
+		4225596D224032DD00F98347 /* SmallImegStyle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4225596C224032DD00F98347 /* SmallImegStyle.xib */; };
+		42255972224034DF00F98347 /* SmallCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42255971224034DF00F98347 /* SmallCollectionCell.xib */; };
+		42255974224036B300F98347 /* SmallCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42255973224036B300F98347 /* SmallCollectionCell.swift */; };
 		422DCF4821EFBE36005B96F9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DCF4721EFBE36005B96F9 /* CollectionViewController.swift */; };
 		422DCF4A21F63D40005B96F9 /* CommingConferenceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422DCF4921F63D40005B96F9 /* CommingConferenceRow.swift */; };
+		425093102294EAF300EC5FAC /* NewCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250930F2294EAF300EC5FAC /* NewCourseViewController.swift */; };
+		425093152294EF2E00EC5FAC /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425093142294EF2E00EC5FAC /* Course.swift */; };
+		425093192294EF4100EC5FAC /* NewCourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425093172294EF4100EC5FAC /* NewCourseViewModel.swift */; };
+		4250931A2294EF4100EC5FAC /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425093182294EF4100EC5FAC /* ToDoListViewModel.swift */; };
+		4250931C2296345700EC5FAC /* HeaderSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4250931B2296345700EC5FAC /* HeaderSection.xib */; };
+		4250931E229634D700EC5FAC /* HeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4250931D229634D700EC5FAC /* HeaderSection.swift */; };
+		42A2A7F322823926009408FF /* CollectionCellIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2A7F222823926009408FF /* CollectionCellIn.swift */; };
+		42A2A7F522823991009408FF /* TableInCellStyleRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A2A7F422823991009408FF /* TableInCellStyleRow.xib */; };
+		42A2A7F722823A12009408FF /* CollectionCellIn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A2A7F622823A12009408FF /* CollectionCellIn.xib */; };
+		42A2A7F9228BBB04009408FF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2A7F8228BBB04009408FF /* DetailViewController.swift */; };
+		42A2A7FB228CCF6C009408FF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2A7FA228CCF6C009408FF /* SearchViewController.swift */; };
+		42A2A800229085A1009408FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A2A7FF229085A1009408FF /* Assets.xcassets */; };
+		9EAE409F1DC516F22242F0DB /* Pods_Dawrat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441BCD74E222BD729CDF0E06 /* Pods_Dawrat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A6F7A0D836A9025C33C2488 /* Pods-Dawrat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawrat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dawrat/Pods-Dawrat.release.xcconfig"; sourceTree = "<group>"; };
+		420C9FC7220CD1030044CAC0 /* DiscoverTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTable.swift; sourceTree = "<group>"; };
+		420C9FC9220CD6520044CAC0 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		420C9FCB220DB3C70044CAC0 /* MostStyleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostStyleRow.swift; sourceTree = "<group>"; };
+		420C9FCD220DB46C0044CAC0 /* SmallImegStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallImegStyle.swift; sourceTree = "<group>"; };
+		420C9FCF220DB4A00044CAC0 /* TableInCellStyleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableInCellStyleRow.swift; sourceTree = "<group>"; };
+		420C9FD1220DF6390044CAC0 /* MostStyleRow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MostStyleRow.xib; sourceTree = "<group>"; };
+		420C9FD622122BB00044CAC0 /* LargeCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LargeCollectionCell.xib; sourceTree = "<group>"; };
 		42168CF721E3E27400498757 /* Dawrat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawrat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42168CFA21E3E27400498757 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42168CFC21E3E27400498757 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42168CFF21E3E27400498757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42168D0121E3E27600498757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42168D0421E3E27600498757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42168D0621E3E27600498757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42168D0C21EE0B0100498757 /* newCol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newCol.swift; sourceTree = "<group>"; };
 		42168D0E21EE0EF100498757 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
-		42168D1021EE3EBB00498757 /* collectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionCell.swift; sourceTree = "<group>"; };
+		42168D1021EE3EBB00498757 /* LargeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeCollectionCell.swift; sourceTree = "<group>"; };
 		42168D1221EE81A900498757 /* LearnEnglishRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnEnglishRow.swift; sourceTree = "<group>"; };
 		42168D1421EE901D00498757 /* freecoursesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freecoursesRow.swift; sourceTree = "<group>"; };
+		4225596C224032DD00F98347 /* SmallImegStyle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmallImegStyle.xib; sourceTree = "<group>"; };
+		42255971224034DF00F98347 /* SmallCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmallCollectionCell.xib; sourceTree = "<group>"; };
+		42255973224036B300F98347 /* SmallCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCollectionCell.swift; sourceTree = "<group>"; };
 		422DCF4721EFBE36005B96F9 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		422DCF4921F63D40005B96F9 /* CommingConferenceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommingConferenceRow.swift; sourceTree = "<group>"; };
+		4250930F2294EAF300EC5FAC /* NewCourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCourseViewController.swift; sourceTree = "<group>"; };
+		425093142294EF2E00EC5FAC /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		425093172294EF4100EC5FAC /* NewCourseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCourseViewModel.swift; sourceTree = "<group>"; };
+		425093182294EF4100EC5FAC /* ToDoListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		4250931B2296345700EC5FAC /* HeaderSection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSection.xib; sourceTree = "<group>"; };
+		4250931D229634D700EC5FAC /* HeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSection.swift; sourceTree = "<group>"; };
+		42A2A7F222823926009408FF /* CollectionCellIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellIn.swift; sourceTree = "<group>"; };
+		42A2A7F422823991009408FF /* TableInCellStyleRow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableInCellStyleRow.xib; sourceTree = "<group>"; };
+		42A2A7F622823A12009408FF /* CollectionCellIn.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCellIn.xib; sourceTree = "<group>"; };
+		42A2A7F8228BBB04009408FF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		42A2A7FA228CCF6C009408FF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		42A2A7FF229085A1009408FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		441BCD74E222BD729CDF0E06 /* Pods_Dawrat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dawrat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AC9E914620769806BCDF9E /* Pods-Dawrat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dawrat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dawrat/Pods-Dawrat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +89,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EAE409F1DC516F22242F0DB /* Pods_Dawrat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420C9FD3220E12160044CAC0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4225596F2240336D00F98347 /* STYLE1 */,
+				4225596E2240336400F98347 /* STYLE2 */,
+				422559702240338F00F98347 /* STYLE3 */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		420C9FD4220E123A0044CAC0 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				42168D0C21EE0B0100498757 /* newCol.swift */,
+				42168D0E21EE0EF100498757 /* CategoryRow.swift */,
+				42168CFC21E3E27400498757 /* ViewController.swift */,
+				42168D1221EE81A900498757 /* LearnEnglishRow.swift */,
+				42168D1421EE901D00498757 /* freecoursesRow.swift */,
+				422DCF4721EFBE36005B96F9 /* CollectionViewController.swift */,
+				422DCF4921F63D40005B96F9 /* CommingConferenceRow.swift */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+		420C9FD5220E12C40044CAC0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				420C9FC7220CD1030044CAC0 /* DiscoverTable.swift */,
+				420C9FC9220CD6520044CAC0 /* Row.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		42168CEE21E3E27400498757 = {
 			isa = PBXGroup;
 			children = (
 				42168CF921E3E27400498757 /* Dawrat */,
 				42168CF821E3E27400498757 /* Products */,
+				ED2E34C3C8CEA4C46D65EE35 /* Pods */,
+				5146F2BFB38247F1BB9235D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,21 +150,99 @@
 		42168CF921E3E27400498757 /* Dawrat */ = {
 			isa = PBXGroup;
 			children = (
+				425093162294EF4100EC5FAC /* View Models */,
+				425093132294EF2E00EC5FAC /* Model */,
+				42A2A7FC228F926E009408FF /* Controller */,
+				420C9FD5220E12C40044CAC0 /* Utility */,
+				420C9FD4220E123A0044CAC0 /* Old */,
+				420C9FD3220E12160044CAC0 /* Cells */,
 				42168CFA21E3E27400498757 /* AppDelegate.swift */,
-				42168CFC21E3E27400498757 /* ViewController.swift */,
+				42A2A7FF229085A1009408FF /* Assets.xcassets */,
 				42168CFE21E3E27400498757 /* Main.storyboard */,
-				42168D0121E3E27600498757 /* Assets.xcassets */,
 				42168D0321E3E27600498757 /* LaunchScreen.storyboard */,
 				42168D0621E3E27600498757 /* Info.plist */,
-				42168D0C21EE0B0100498757 /* newCol.swift */,
-				42168D0E21EE0EF100498757 /* CategoryRow.swift */,
-				42168D1021EE3EBB00498757 /* collectionCell.swift */,
-				42168D1221EE81A900498757 /* LearnEnglishRow.swift */,
-				42168D1421EE901D00498757 /* freecoursesRow.swift */,
-				422DCF4721EFBE36005B96F9 /* CollectionViewController.swift */,
-				422DCF4921F63D40005B96F9 /* CommingConferenceRow.swift */,
 			);
 			path = Dawrat;
+			sourceTree = "<group>";
+		};
+		4225596E2240336400F98347 /* STYLE2 */ = {
+			isa = PBXGroup;
+			children = (
+				420C9FCD220DB46C0044CAC0 /* SmallImegStyle.swift */,
+				4225596C224032DD00F98347 /* SmallImegStyle.xib */,
+				42255971224034DF00F98347 /* SmallCollectionCell.xib */,
+				42255973224036B300F98347 /* SmallCollectionCell.swift */,
+			);
+			path = STYLE2;
+			sourceTree = "<group>";
+		};
+		4225596F2240336D00F98347 /* STYLE1 */ = {
+			isa = PBXGroup;
+			children = (
+				420C9FCB220DB3C70044CAC0 /* MostStyleRow.swift */,
+				42168D1021EE3EBB00498757 /* LargeCollectionCell.swift */,
+				420C9FD1220DF6390044CAC0 /* MostStyleRow.xib */,
+				420C9FD622122BB00044CAC0 /* LargeCollectionCell.xib */,
+			);
+			path = STYLE1;
+			sourceTree = "<group>";
+		};
+		422559702240338F00F98347 /* STYLE3 */ = {
+			isa = PBXGroup;
+			children = (
+				420C9FCF220DB4A00044CAC0 /* TableInCellStyleRow.swift */,
+				42A2A7F222823926009408FF /* CollectionCellIn.swift */,
+				42A2A7F422823991009408FF /* TableInCellStyleRow.xib */,
+				42A2A7F622823A12009408FF /* CollectionCellIn.xib */,
+			);
+			path = STYLE3;
+			sourceTree = "<group>";
+		};
+		425093132294EF2E00EC5FAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				425093142294EF2E00EC5FAC /* Course.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		425093162294EF4100EC5FAC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				425093172294EF4100EC5FAC /* NewCourseViewModel.swift */,
+				425093182294EF4100EC5FAC /* ToDoListViewModel.swift */,
+				4250931D229634D700EC5FAC /* HeaderSection.swift */,
+				4250931B2296345700EC5FAC /* HeaderSection.xib */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		42A2A7FC228F926E009408FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4250930F2294EAF300EC5FAC /* NewCourseViewController.swift */,
+				42A2A7F8228BBB04009408FF /* DetailViewController.swift */,
+				42A2A7FA228CCF6C009408FF /* SearchViewController.swift */,
+			);
+			name = Controller;
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5146F2BFB38247F1BB9235D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				441BCD74E222BD729CDF0E06 /* Pods_Dawrat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED2E34C3C8CEA4C46D65EE35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77AC9E914620769806BCDF9E /* Pods-Dawrat.debug.xcconfig */,
+				0A6F7A0D836A9025C33C2488 /* Pods-Dawrat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42168D0921E3E27600498757 /* Build configuration list for PBXNativeTarget "Dawrat" */;
 			buildPhases = (
+				771A6424330DC018FFD1579D /* [CP] Check Pods Manifest.lock */,
 				42168CF321E3E27400498757 /* Sources */,
 				42168CF421E3E27400498757 /* Frameworks */,
 				42168CF521E3E27400498757 /* Resources */,
+				EB85650E34C285EE32904624 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,13 +305,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4250931C2296345700EC5FAC /* HeaderSection.xib in Resources */,
+				42255972224034DF00F98347 /* SmallCollectionCell.xib in Resources */,
+				42A2A7F522823991009408FF /* TableInCellStyleRow.xib in Resources */,
+				420C9FD722122BB00044CAC0 /* LargeCollectionCell.xib in Resources */,
+				42A2A7F722823A12009408FF /* CollectionCellIn.xib in Resources */,
 				42168D0521E3E27600498757 /* LaunchScreen.storyboard in Resources */,
-				42168D0221E3E27600498757 /* Assets.xcassets in Resources */,
+				42A2A800229085A1009408FF /* Assets.xcassets in Resources */,
+				420C9FD2220DF6390044CAC0 /* MostStyleRow.xib in Resources */,
+				4225596D224032DD00F98347 /* SmallImegStyle.xib in Resources */,
 				42168D0021E3E27400498757 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		771A6424330DC018FFD1579D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dawrat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB85650E34C285EE32904624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dawrat/Pods-Dawrat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/LocationRow/LocationRow.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationRow.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dawrat/Pods-Dawrat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42168CF321E3E27400498757 /* Sources */ = {
@@ -157,14 +375,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				42168D0D21EE0B0100498757 /* newCol.swift in Sources */,
+				42A2A7F9228BBB04009408FF /* DetailViewController.swift in Sources */,
+				420C9FCC220DB3C70044CAC0 /* MostStyleRow.swift in Sources */,
+				420C9FC8220CD1030044CAC0 /* DiscoverTable.swift in Sources */,
 				42168CFD21E3E27400498757 /* ViewController.swift in Sources */,
+				420C9FD0220DB4A00044CAC0 /* TableInCellStyleRow.swift in Sources */,
 				42168D0F21EE0EF100498757 /* CategoryRow.swift in Sources */,
 				42168D1321EE81A900498757 /* LearnEnglishRow.swift in Sources */,
 				422DCF4821EFBE36005B96F9 /* CollectionViewController.swift in Sources */,
+				420C9FCA220CD6520044CAC0 /* Row.swift in Sources */,
 				422DCF4A21F63D40005B96F9 /* CommingConferenceRow.swift in Sources */,
-				42168D1121EE3EBB00498757 /* collectionCell.swift in Sources */,
+				425093152294EF2E00EC5FAC /* Course.swift in Sources */,
+				42255974224036B300F98347 /* SmallCollectionCell.swift in Sources */,
+				42A2A7FB228CCF6C009408FF /* SearchViewController.swift in Sources */,
+				425093102294EAF300EC5FAC /* NewCourseViewController.swift in Sources */,
+				42A2A7F322823926009408FF /* CollectionCellIn.swift in Sources */,
+				4250931A2294EF4100EC5FAC /* ToDoListViewModel.swift in Sources */,
+				425093192294EF4100EC5FAC /* NewCourseViewModel.swift in Sources */,
+				420C9FCE220DB46C0044CAC0 /* SmallImegStyle.swift in Sources */,
+				42168D1121EE3EBB00498757 /* LargeCollectionCell.swift in Sources */,
 				42168D1521EE901D00498757 /* freecoursesRow.swift in Sources */,
 				42168CFB21E3E27400498757 /* AppDelegate.swift in Sources */,
+				4250931E229634D700EC5FAC /* HeaderSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +479,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -300,12 +533,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		42168D0A21E3E27600498757 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AC9E914620769806BCDF9E /* Pods-Dawrat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +559,7 @@
 		};
 		42168D0B21E3E27600498757 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A6F7A0D836A9025C33C2488 /* Pods-Dawrat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

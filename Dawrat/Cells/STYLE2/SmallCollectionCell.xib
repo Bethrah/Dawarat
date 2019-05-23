@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SmallCollectionCell" id="Uuj-my-Qfd" customClass="SmallCollectionCell" customModule="Dawrat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cQv-lH-1oH">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="Sb8-In-lli"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFK-xK-VPL">
+                        <rect key="frame" x="35.5" y="101" width="31.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="cQv-lH-1oH" firstAttribute="leading" secondItem="biQ-81-R68" secondAttribute="leading" id="4Zt-FS-toG"/>
+                <constraint firstItem="cQv-lH-1oH" firstAttribute="centerX" secondItem="gFK-xK-VPL" secondAttribute="centerX" constant="-1" id="GLW-9m-mmc"/>
+                <constraint firstItem="gFK-xK-VPL" firstAttribute="top" secondItem="cQv-lH-1oH" secondAttribute="bottom" constant="1" id="X1n-aH-3Qz"/>
+                <constraint firstItem="biQ-81-R68" firstAttribute="trailing" secondItem="cQv-lH-1oH" secondAttribute="trailing" id="jaW-yg-SzV"/>
+                <constraint firstItem="cQv-lH-1oH" firstAttribute="top" secondItem="biQ-81-R68" secondAttribute="top" id="yDp-Lq-Sc0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="biQ-81-R68"/>
+            <size key="customSize" width="139" height="176"/>
+            <connections>
+                <outlet property="MainLabel" destination="gFK-xK-VPL" id="h6H-Y8-0Dy"/>
+                <outlet property="imageview" destination="cQv-lH-1oH" id="heR-Mz-60x"/>
+            </connections>
+            <point key="canvasLocation" x="-28" y="478"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,21 @@
+PODS:
+  - Eureka (4.3.1)
+  - LocationRow (1.0.0):
+    - Eureka (~> 4.3)
+
+DEPENDENCIES:
+  - Eureka
+  - LocationRow
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Eureka
+    - LocationRow
+
+SPEC CHECKSUMS:
+  Eureka: 28ea296f06710f6745266b71f17862048941a32d
+  LocationRow: b4d85cc066e3756f01bdec091784b72bd174bf4e
+
+PODFILE CHECKSUM: ddd272b08c58723d8441a2b2dd8ee562c8a56cba
+
+COCOAPODS: 1.5.3

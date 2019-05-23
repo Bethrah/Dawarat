@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="220" id="VBc-BW-HrS" customClass="HeaderSection" customModule="Dawrat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VBc-BW-HrS" id="iVl-hm-3mc">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="219.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download (6)" translatesAutoresizingMaskIntoConstraints="NO" id="4JK-xj-qss">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="220" id="Lbt-20-Li2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" New Course" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="Mxj-xZ-ru2">
+                        <rect key="frame" x="0.0" y="0.0" width="274" height="55"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="46"/>
+                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGg-ej-yL6">
+                        <rect key="frame" x="325" y="167" width="43" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="52" id="baj-HS-J1l"/>
+                            <constraint firstAttribute="width" constant="43" id="zFd-YD-wzv"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="camra"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Mxj-xZ-ru2" secondAttribute="trailing" constant="85" id="FfK-8Z-lT1"/>
+                    <constraint firstAttribute="trailing" secondItem="4JK-xj-qss" secondAttribute="trailing" id="HLK-Rs-SL1"/>
+                    <constraint firstItem="Mxj-xZ-ru2" firstAttribute="top" secondItem="4JK-xj-qss" secondAttribute="top" id="IIz-KJ-HDQ"/>
+                    <constraint firstItem="4JK-xj-qss" firstAttribute="leading" secondItem="iVl-hm-3mc" secondAttribute="leading" id="Kon-03-LD5"/>
+                    <constraint firstAttribute="bottom" secondItem="4JK-xj-qss" secondAttribute="bottom" id="Uis-Ft-0c4"/>
+                    <constraint firstItem="4JK-xj-qss" firstAttribute="leading" secondItem="iVl-hm-3mc" secondAttribute="leading" id="e7i-WM-HdR"/>
+                    <constraint firstItem="4JK-xj-qss" firstAttribute="top" secondItem="iVl-hm-3mc" secondAttribute="top" id="mf4-FQ-MDe"/>
+                    <constraint firstAttribute="trailing" secondItem="4JK-xj-qss" secondAttribute="trailing" id="wvJ-bQ-AhF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="Mxj-xZ-ru2" firstAttribute="leading" secondItem="VBc-BW-HrS" secondAttribute="leading" id="3Jh-2X-iH3"/>
+                <constraint firstItem="Mxj-xZ-ru2" firstAttribute="top" secondItem="VBc-BW-HrS" secondAttribute="top" id="Gk5-qR-BcQ"/>
+                <constraint firstAttribute="bottom" secondItem="qGg-ej-yL6" secondAttribute="bottom" constant="1" id="Q5J-0N-MgV"/>
+                <constraint firstAttribute="trailing" secondItem="qGg-ej-yL6" secondAttribute="trailing" constant="7" id="mSd-Ho-Zbk"/>
+            </constraints>
+            <point key="canvasLocation" x="-1623.2" y="-747.52623688155927"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="camra" width="512" height="512"/>
+        <image name="download (6)" width="318" height="159"/>
+    </resources>
+</document>
